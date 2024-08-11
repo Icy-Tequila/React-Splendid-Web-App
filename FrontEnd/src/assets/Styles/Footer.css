@@ -1,0 +1,41 @@
+#footer-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 95%;
+  height: auto;
+  background-color: #2b2b2b;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+}
+
+#footer-LC {
+  width: 25rem;
+}
+
+#footer-logo {
+  height: 4rem;
+}
+
+#footer-RC {
+  width: 25rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  all: unset;
+  color: white;
+}
