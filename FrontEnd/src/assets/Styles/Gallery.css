@@ -1,0 +1,47 @@
+#about-section {
+  width: 100%;
+  height: auto;
+  background-color: #f8f7f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 8rem;
+}
+
+.about-images {
+  width: 30%;
+  border-radius: 10px;
+}
+
+#about-image-1,
+#about-image-2 {
+  animation: moveFromLeft 1s ease-out;
+}
+
+#about-image-4,
+#about-image-3 {
+  animation: moveFromRight 1s ease-out;
+}
+
+#about-btnC {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0rem 5rem 0rem;
+}
+
+.about-btn {
+  font-weight: bold;
+  font-size: larger;
+}
