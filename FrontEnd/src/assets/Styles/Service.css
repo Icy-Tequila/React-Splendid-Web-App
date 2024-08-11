@@ -1,0 +1,30 @@
+#service-section {
+  width: 100%;
+  height: auto;
+  font-size: 23px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem 0rem;
+}
+
+.service-container {
+  width: 17rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.service-section-images {
+  width: 3rem;
+}
+
+p {
+  font-size: 18px;
+  margin-top: -0.5rem;
+}
