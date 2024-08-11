@@ -4,6 +4,7 @@ import { FooterSection } from "./assets/Components/Footer";
 import { IntroSection } from "./assets/Pages/IntroSection";
 import { ServiceSection } from "./assets/Pages/ServiceSection";
 import { GallerySection } from "./assets/Pages/GallerySection";
+import { ProductSection } from "./assets/Pages/ProductSection";
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <IntroSection />
       <ServiceSection />
       <GallerySection />
+      <ProductSection />
 
       <FooterSection />
     </main>
