@@ -5,6 +5,7 @@ import { IntroSection } from "./assets/Pages/IntroSection";
 import { ServiceSection } from "./assets/Pages/ServiceSection";
 import { GallerySection } from "./assets/Pages/GallerySection";
 import { ProductSection } from "./assets/Pages/ProductSection";
+import { AboutSection } from "./assets/Pages/AboutSection";
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
       <ServiceSection />
       <GallerySection />
       <ProductSection />
+      <AboutSection />
 
       <FooterSection />
     </main>

@@ -1,0 +1,53 @@
+#about-RC {
+  width: 27.5rem;
+  height: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-RC-text {
+  width: 80%;
+}
+
+#about-RC-btn {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5rem;
+}
+
+#social-links-container {
+  width: 40%;
+}
+
+.social-links {
+  width: 2rem;
+}
+
+#blogs-section {
+  width: 100%;
+  height: auto;
+  background-color: #f8f7f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0rem;
+}
+
+#blogs-container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem 0rem;
+}
+
+#blogs-image {
+  height: 26rem;
+  border-radius: 15px;
+}
