@@ -11,7 +11,7 @@ import { ContactSection } from "./assets/Pages/ContactSection";
 
 export const App = () => {
   return (
-    <main>
+    <main id="home">
       <HeaderSection />
 
       <IntroSection />
