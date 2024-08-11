@@ -1,0 +1,41 @@
+#item-feature-section {
+  width: 100%;
+  height: auto;
+  background-image: url(../Images/item-feature-bg.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#item-feature-h1 {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  color: #f8f7f5;
+  margin-top: 5rem;
+}
+
+#item-feature-p {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  color: #f8f7f5;
+  margin-top: -1rem;
+}
+
+#item-feature-image {
+  width: 35rem;
+  margin-top: -2rem;
+}
+
+#item-feature-btnC {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#item-feature-btn {
+  margin-bottom: 5rem;
+  background-color: #f8f7f5;
+}
