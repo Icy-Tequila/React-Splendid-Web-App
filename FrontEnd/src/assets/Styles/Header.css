@@ -12,6 +12,11 @@ header {
 
 #splendid-logo {
   height: 3rem;
+  transition: transform 0.3s ease;
+}
+
+#splendid-logo:hover {
+  transform: scale(0.9);
 }
 
 #nav-bar {
@@ -19,8 +24,7 @@ header {
   align-items: center;
 }
 
-.nav-btn {
-  /* padding: 0.8rem 1.5rem; */
+.nav-link {
   margin: 10px;
   border-radius: 8px;
   position: relative;
@@ -28,11 +32,11 @@ header {
   padding-top: 10px; /* Space above the text for the line */
 }
 
-.nav-btn:hover:after {
+.nav-link:hover:after {
   background-color: rgb(199, 199, 199);
 }
 
-.nav-btn::after {
+.nav-link::after {
   content: "";
   position: absolute;
   width: 0;
@@ -44,14 +48,10 @@ header {
   z-index: 1; /* Ensure the line appears above the text */
 }
 
-.nav-btn:hover::after,
-.nav-btn:focus::after,
-.nav-btn:active::after {
+.nav-link:hover::after,
+.nav-link:focus::after,
+.nav-link:active::after {
   width: 100%; /* Line expands to full width on hover, focus, or active state */
-}
-
-#home:visited::after {
-  background-color: #2b2b2b;
 }
 
 #cart-btn {
@@ -66,4 +66,28 @@ header {
 #cart-btn:hover::before {
   content: "\f217"; /* Unicode for fa-cart-plus */
   color: grey;
+}
+
+#menu-btn {
+  display: none;
+}
+
+@media (max-width: 578px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #nav-bar {
+    display: none;
+  }
+
+  #cart-btn {
+    display: none;
+  }
+
+  #menu-btn {
+    display: flex;
+    font-size: 2rem;
+  }
 }
