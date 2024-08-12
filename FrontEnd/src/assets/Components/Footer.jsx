@@ -11,7 +11,8 @@ export const FooterSection = () => {
             <li>Shipping</li>
           </ul>
         </div>
-        <img src="images/footer-logo.png" id="footer-logo" alt=""></img>
+        {/* <img src="images/footer-logo.png" id="footer-logo" alt=""></img> */}
+        <h2>S P L E N D I D</h2>
         <div id="footer-RC">
           <ul>
             <li>Policy</li>

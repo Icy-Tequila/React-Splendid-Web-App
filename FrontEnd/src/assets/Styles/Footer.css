@@ -24,6 +24,10 @@ footer {
   height: 4rem;
 }
 
+footer h2 {
+  color: white;
+}
+
 #footer-RC {
   width: 25rem;
 }

@@ -30,12 +30,12 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .item-container {
-  width: 16rem;
-  height: 24rem;
+  width: 14rem;
+  height: 22rem;
   background-color: #f8f7f5;
   border-radius: 15px;
   /* box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.05), 
@@ -45,7 +45,7 @@
 }
 
 .products-images {
-  width: 16rem;
+  width: 14rem;
   border-radius: 15px;
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.02);
 }

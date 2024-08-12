@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   background-image: url(../Images/item-feature-bg.png);
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -25,7 +26,8 @@
 }
 
 #item-feature-image {
-  width: 35rem;
+  min-width: 20rem;
+  max-width: 35rem;
   margin-top: -2rem;
 }
 
